@@ -1,8 +1,9 @@
 {
   "name": "quick-upscale",
-  "version": "1.0.0",
-  "description": "A simple, fast image upscaling library using canvas for resolution enhancement",
+  "version": "1.0.1",
+  "description": "A simple, fast image upscaling library using canvas for resolution enhancement (browser-only)",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,16 +14,14 @@
     "resolution",
     "canvas",
     "upscaler",
-    "image-processing"
+    "image-processing",
+    "browser"
   ],
   "author": "ANKURDHI",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ANKURDHI/quick-upscale.git"
-  },
-  "dependencies": {
-    "canvas": "^2.11.2"
   },
   "files": [
     "src",
